@@ -45,7 +45,7 @@ def is_valid(file: TextIO) -> bool:
             return False
 
         *_, weight = edge
-        if weight.isdigit() and int(weight) < 0:
+        if not weight.isdigit():
             return False
 
     return True
