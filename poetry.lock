@@ -60,7 +60,7 @@ python-versions = ">=3.6.1"
 version = "3.2.0"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "Composable command line interface toolkit"
 name = "click"
 optional = false
@@ -371,7 +371,7 @@ docs = ["proselint (>=0.10.2)", "sphinx (>=3)", "sphinx-argparse (>=0.2.5)", "sp
 testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", "pytest (>=4)", "pytest-env (>=0.6.2)", "pytest-freezegun (>=0.4.1)", "pytest-mock (>=2)", "pytest-randomly (>=1)", "pytest-timeout (>=1)", "pytest-xdist (>=1.31.0)", "packaging (>=20.0)", "xonsh (>=0.9.16)"]
 
 [metadata]
-content-hash = "a791f7ee2e768349755b7ff788f6514413f07348ba1f0b289693e4abd59b7fc4"
+content-hash = "8efbd6c6bae926ae9f53a47adbd7838eb9c44d6318788c07ed264261e10b211c"
 python-versions = "^3.8"
 
 [metadata.files]
