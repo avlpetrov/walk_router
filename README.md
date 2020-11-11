@@ -1,5 +1,7 @@
 Walk Router
 ==========================
+Simple CLI-app for finding shortest distance between two nodes on an undirected graph.
+
 Installation
 ------------
 Python 3.7.0+ is required because of using ``dataclasses``.  
