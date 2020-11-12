@@ -3,7 +3,7 @@ from dataclasses import dataclass, field
 from math import inf
 from pathlib import Path
 from queue import PriorityQueue
-from typing import Any, Dict, Union
+from typing import Dict, Union
 
 Distance = Union[int, float]
 NodeID = str
@@ -136,5 +136,5 @@ class GraphNode:
 
 @dataclass(order=True)
 class PrioritizedNode:
-    priority: int
-    node: Any = field(compare=False)
+    priority: Distance
+    node: GraphNode = field(compare=False)
