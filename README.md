@@ -1,6 +1,7 @@
 Walk Router
 ==========================
-Simple CLI-app for finding shortest distance between two nodes on an undirected graph.
+Simple CLI-app for finding shortest distance between two nodes on an undirected graph.  
+Made for Citymapper company as a test assignment.
 
 Installation
 ------------
